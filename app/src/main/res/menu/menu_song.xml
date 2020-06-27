@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.forestsoftware.orin.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        android:icon="@android:drawable/star_off"
+
+        app:showAsAction="always"
+        android:checkable="true"
+        android:enabled="false"
+        android:checked="false"
+        android:visible="true" />
+</menu>

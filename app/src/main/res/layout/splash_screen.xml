@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    android:background="@color/color_white" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/l1">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                    android:src="@mipmap/orimolade"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/l1"
+        android:layout_weight="6">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogo"
+
+            android:layout_marginBottom="10dp"
+            android:textColor="#454545"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:text="Orimolade Tunolase"
+            android:id="@+id/t1"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+        android:text="@string/founder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+        android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:background="@color/color_white"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="356dp"-->
+        <!--app:srcCompat="@drawable/molade"-->
+        <!--android:id="@+id/imageView" />-->
+
+    <!--<TextView-->
+        <!--android:text="@string/founder"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center" />-->
+
+    <!--<TextView-->
+        <!--android:text="@string/orimonlade"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="normal|bold"-->
+        <!--android:layout_marginTop="10dp" />-->
+<!--</LinearLayout>-->
